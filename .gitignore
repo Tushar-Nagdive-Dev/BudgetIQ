@@ -11,3 +11,9 @@ budgetiq-backend/core-service/build
 budgetiq-backend/api-gateway/build
 budgetiq-backend/common/security/build
 budgetiq-backend/common/web/build
+
+# Ignore UI build output directory
+budgetiq-ui/node_modules
+budgetiq-ui/.angular
+budgetiq-ui/.vscode
+budgetiq-ui/package-lock.json
