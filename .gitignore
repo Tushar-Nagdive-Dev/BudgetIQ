@@ -4,6 +4,10 @@
 # Ignore Gradle project-specific cache directory
 budgetiq-backend/.gradle
 
+**.jar
+**.MF
+**.zip
+
 # Ignore Gradle build output directory
 budgetiq-backend/build
 budgetiq-backend/ai-service/build
@@ -11,6 +15,7 @@ budgetiq-backend/core-service/build
 budgetiq-backend/api-gateway/build
 budgetiq-backend/common/security/build
 budgetiq-backend/common/web/build
+budgetiq-backend/.env
 
 # Ignore UI build output directory
 budgetiq-ui/node_modules
